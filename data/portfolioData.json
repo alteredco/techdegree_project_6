@@ -1,0 +1,51 @@
+{
+  "data": {
+    "projects": [
+      {
+        "id": 1,
+        "project_name": "random quote generator",
+        "description": "project 1 for treehouse tech degree",
+        "technologies": "html, css, js",
+        "live_link": "https://rand-quote.netlify.com",
+        "github_link": "https://alteredco.github.io/techdegree-project-1",
+        "image_urls": " "
+      },
+      {
+        "id": 2,
+        "project_name": "paginated directory",
+        "description": "a student directory with pagination and search function added dynamically with vanilla JavaScript",
+        "technologies": "html, css, js",
+        "live_link": "https://student-directory.netlify.com/",
+        "github_link": "https://github.com/alteredco/tech-degree-project-2",
+        "image_urls": " "
+      },
+      {
+        "id": 3,
+        "project_name": "interactive form",
+        "description": "Within this project, the form is progressively enhanced with javascript to add customized and conditional behavior and interactivity.",
+        "technologies": "html, css, js, jquery",
+        "live_link": "https://conf-signup-form.netlify.com/",
+        "github_link": "https://github.com/alteredco/tech-degree-project-3",
+        "image_urls": " "
+      },
+      {
+        "id": 4,
+        "project_name": "phrase hunter",
+        "description": "browser-based, oop word guessing game app",
+        "technologies": "html, css, js",
+        "live_link": "https://phrase-hunter.netlify.com/",
+        "github_link": "https://github.com/alteredco/techdegree-project-4",
+        "image_urls": " "
+      },
+      {
+        "id": 5,
+        "project_name": "awesome employee directory",
+        "description": "this app requests a JSON object from an api and parses the data into a directory",
+        "technologies": "html, css, js, json, api",
+        "live_link": "https://awesome-employee-directory.netlify.com/",
+        "github_link": "https://github.com/alteredco/techdegree_project_5",
+        "image_urls": " "
+      }
+    ]
+  }
+}
