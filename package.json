@@ -1,0 +1,19 @@
+{
+  "name": "techdegree_project_6",
+  "version": "1.0.0",
+  "description": "Static node and Express Portfolio Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alteredco/techdegree_project_6.git"
+  },
+  "author": "Wendy Kakuda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alteredco/techdegree_project_6/issues"
+  },
+  "homepage": "https://github.com/alteredco/techdegree_project_6#readme"
+}
