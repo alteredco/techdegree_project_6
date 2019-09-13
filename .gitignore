@@ -14,9 +14,6 @@ pids
 *.seed
 *.pid.lock
 
-# Bower dependency directory (https://bower.io/)
-bower_components
-
 # node-waf configuration
 .lock-wscript
 
@@ -38,15 +35,13 @@ node_modules/
 # Output of 'npm pack'
 *.tgz
 
-# Yarn Integrity file
-.yarn-integrity
-
 # dotenv environment variables file
 .env
 .env.test
 
-# next.js build output
-.next
-
 # Serverless directories
 .serverless/
+
+#Mockups
+example-html/
+mockups/
