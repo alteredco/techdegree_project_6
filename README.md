@@ -14,11 +14,11 @@ Working version of this project can be found here:
 _____________
 # Features:
 
-A JSON file stored all the data about the projects I've created.
+A JSON file is used as a flat data file to store data about created projects.
 
-I've used Pug to build templates that utilize the JSON to generate the markup that is ultimately displayed in the browser.
+Pug is utilised to build templates that access the JSON data to generate the markup that is ultimately displayed in the browser.
 
-I've used Node.js and Express to:
+Node.js and Express is used to:
 
 Import the required dependencies
 Link the JSON with the Pug templates
@@ -26,6 +26,7 @@ Set up routes to handle requests
 Set up the middleware to utilize static files like CSS
 Handle errors
 Set up a server to serve the project
+
 This project demonstrates my comfortable working knowledge of Node.js, Express and Pug, setting up a server, handling requests, working with server-side JavaScript, and building a powerful and modern back end project. 
 
 **FOR EXCEEDS**
