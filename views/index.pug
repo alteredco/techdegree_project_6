@@ -2,7 +2,8 @@ extends layout.pug
 
 block content 
   article.grid-container.portfolio-intro
-    div The Portfolio of #{name}
+    div  
+      h5 #{name}
       h1 Projects
       p.lead.text-light
         | #{portfolioDesc}
@@ -19,9 +20,8 @@ block content
       //- Use a combination of interpolation and template literals as needed to dynamically generate the the routes in the href, as well as the img's src and the projects title.
       
       //- Here's what the Pug for each project example should look like. 
-
       .cell
         a(href=`${projectLink}`)
-          img.thumbnail.round(src='https://placehold.it/550x550')
-          h5 Title
+          img.thumbnail.round(src=`${projectImg}`)
+          h5.lead.text-light #{title}
       

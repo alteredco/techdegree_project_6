@@ -10,7 +10,9 @@ router.get('/:id', (req, res) => {
     tech: projects[req.params.id].technologies,
     liveLink: projects[req.params.id].live_link,
     ghLink: projects[req.params.id].github_link,
-    image: projects[req.params.id].image_urls
+    image1: projects[req.params.id].image_urls.image1,
+    image2: projects[req.params.id].image_urls.image2,
+    image3: projects[req.params.id].image_urls.image3
   });
 });
 
