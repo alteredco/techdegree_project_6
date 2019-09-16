@@ -9,10 +9,10 @@
         "live_link": "https://rand-quote.netlify.com",
         "github_link": "https://github.com/alteredco/techdegree-project-1",
         "image_urls": {
-          "image1": "../images/rand_quote1.png",
-          "image2": "../images/rand_quote2.png",
-          "image3": "../images/rand_quote3.png",
-          "thumbnail": "../images/rand_quote_thumb.png"
+          "image1": "/static/images/rand_quote1.png",
+          "image2": "/static/images/rand_quote2.png",
+          "image3": "/static/images/rand_quote3.png",
+          "thumbnail": "/static/images/rand_quote_thumb.png"
         }
       },
       {
