@@ -70,7 +70,7 @@ a:hover{
   }
 
   .portfolio-me a{
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 600;
     color: #23518d;
     font-size: 1em;
@@ -90,7 +90,7 @@ a:hover{
 }
 
  .portfolio-breadcrumb a{
-   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   font-family: 'Roboto', sans-serif;
    font-weight: 600;
    font-size: 13px;
    letter-spacing: 2.5px;
@@ -115,6 +115,14 @@ a:hover{
 
   .portfolio-index .thumbnail{
     margin-bottom: 5px;
+  }
+
+  .portfolio-index .thumbnail:hover{
+  box-shadow: 2px 2px 2px 2px rgba(45,71,104,0.5);
+  }
+
+  .portfolio-index h5:hover{
+  color: #E3C147;
   }
 
   .portfolio-index a{

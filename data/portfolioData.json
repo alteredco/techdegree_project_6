@@ -22,7 +22,12 @@
         "technologies": "html, css, js",
         "live_link": "https://student-directory.netlify.com/",
         "github_link": "https://github.com/alteredco/tech-degree-project-2",
-        "image_urls": " "
+        "image_urls": {
+          "image1": "/static/images/pagination1.png",
+          "image2": "/static/images/pagination2.png",
+          "image3": "/static/images/pagination3.png",
+          "thumbnail": "/static/images/pagination_thumbnail.png"
+        }
       },
       {
         "id": 2,
@@ -31,7 +36,12 @@
         "technologies": "html, css, js, jquery",
         "live_link": "https://conf-signup-form.netlify.com/",
         "github_link": "https://github.com/alteredco/tech-degree-project-3",
-        "image_urls": " "
+        "image_urls": {
+          "image1": "/static/images/conf_form1.png",
+          "image2": "/static/images/conf_form2.png",
+          "image3": "/static/images/conf_form3.png",
+          "thumbnail": "/static/images/conf_form_thumbnail.png"
+        }
       },
       {
         "id": 3,
@@ -40,7 +50,12 @@
         "technologies": "html, css, js",
         "live_link": "https://phrase-hunter.netlify.com/",
         "github_link": "https://github.com/alteredco/techdegree-project-4",
-        "image_urls": " "
+        "image_urls": {
+          "image1": "/static/images/phrasehunter1.png",
+          "image2": "/static/images/phrasehunter2.png",
+          "image3": "/static/images/phrasehunter3.png",
+          "thumbnail": "/static/images/phrasehunter_thumbnail.png"
+        }
       },
       {
         "id": 4,
@@ -49,7 +64,12 @@
         "technologies": "html, css, js, json, api",
         "live_link": "https://awesome-employee-directory.netlify.com/",
         "github_link": "https://github.com/alteredco/techdegree_project_5",
-        "image_urls": " "
+        "image_urls": {
+          "image1": "/static/images/awesome_dir1.png",
+          "image2": "/static/images/awesome_dir2.png",
+          "image3": "/static/images/awesome_dir3.png",
+          "thumbnail": "/static/images/awesome_dir_thumbnail.png"
+        }
       }
     ]
   }
