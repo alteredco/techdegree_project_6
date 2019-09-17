@@ -1,3 +1,17 @@
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in {
+  opacity:0;  
+  -webkit-animation:fadeIn ease-in 1s; 
+  -moz-animation:fadeIn ease-in 1s;
+  animation:fadeIn ease-in 1s;
+
+  -webkit-animation-fill-mode:forwards;  
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+}
 
 h1,h2,h3,h4, h5{
   font-family: 'BioRhyme', serif;
@@ -51,8 +65,7 @@ a:hover{
   display: inline-block;
   max-width: 100%;
   margin-bottom: 1rem;
-  border: solid 4px #fefefe;
-  border-radius: 0;
+  border-radius: 5px;
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
   line-height: 0;
 }
@@ -62,7 +75,14 @@ a:hover{
   background:#f8f8f8;
   color: #422d68;
   box-shadow: none !important;
+  transition:all 0.3s ease;
 }
+
+  .portfolio-me .thumbnail:hover{
+      -webkit-transform: scale(1.02);
+      -ms-transform: scale(1.02);
+      transform: scale(1.02);
+  }
 
   .portfolio-me p{
     font-size: 1em;
@@ -115,14 +135,19 @@ a:hover{
 
   .portfolio-index .thumbnail{
     margin-bottom: 5px;
+    transition:all 0.3s ease;
   }
 
   .portfolio-index .thumbnail:hover{
-  box-shadow: 2px 2px 2px 2px rgba(45,71,104,0.5);
+    box-shadow: 2px 2px 2px 2px rgba(45,71,104,0.5);
+    -webkit-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    transform: scale(1.02);
   }
 
   .portfolio-index h5:hover{
-  color: #E3C147;
+    color: #E3C147;
+    font-weight: 600;
   }
 
   .portfolio-index a{
