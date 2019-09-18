@@ -73,6 +73,7 @@ a:hover{
 .portfolio-me{
   padding: 20px;
   background:#f8f8f8;
+  background-image: repeating-linear-gradient(45deg,#f8f8f8, #d9c0f7 1px, #f8f8f8 1px, #f8f8f8 8px);
   color: #422d68;
   box-shadow: none !important;
   transition:all 0.3s ease;

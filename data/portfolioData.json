@@ -4,7 +4,7 @@
       {
         "id": 0,
         "project_name": "random quote generator",
-        "description": "A random quote generator created in HTML, CSS and vanilla JavaScript",
+        "description": "A random quote generator created in HTML, CSS and vanilla JavaScript.",
         "technologies": [
           "html",
           "css",
@@ -22,7 +22,7 @@
       {
         "id": 1,
         "project_name": "paginated directory",
-        "description": "A student directory with pagination and search function added dynamically with vanilla JavaScript",
+        "description": "A student directory with pagination and search function added dynamically with vanilla JavaScript.",
         "technologies": [
           "html",
           "css",
@@ -59,7 +59,7 @@
       {
         "id": 3,
         "project_name": "phrase hunter",
-        "description": "browser-based, oop word guessing game app",
+        "description": "Browser-based, oop word guessing game app.",
         "technologies": [
           "html",
           "css",
@@ -77,7 +77,7 @@
       {
         "id": 4,
         "project_name": "awesome employee directory",
-        "description": "This app requests a JSON object from an api and parses the data into a directory",
+        "description": "This app requests a JSON object from an api and parses the data into a directory.",
         "technologies": [
           "html",
           "css",
