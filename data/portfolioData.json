@@ -4,8 +4,12 @@
       {
         "id": 0,
         "project_name": "random quote generator",
-        "description": "project 1 for treehouse tech degree",
-        "technologies": "html, css, js",
+        "description": "A random quote generator created in HTML, CSS and vanilla JavaScript",
+        "technologies": [
+          "html",
+          "css",
+          "js"
+        ],
         "live_link": "https://rand-quote.netlify.com",
         "github_link": "https://github.com/alteredco/techdegree-project-1",
         "image_urls": {
@@ -18,8 +22,12 @@
       {
         "id": 1,
         "project_name": "paginated directory",
-        "description": "a student directory with pagination and search function added dynamically with vanilla JavaScript",
-        "technologies": "html, css, js",
+        "description": "A student directory with pagination and search function added dynamically with vanilla JavaScript",
+        "technologies": [
+          "html",
+          "css",
+          "js"
+        ],
         "live_link": "https://student-directory.netlify.com/",
         "github_link": "https://github.com/alteredco/tech-degree-project-2",
         "image_urls": {
@@ -33,7 +41,12 @@
         "id": 2,
         "project_name": "interactive form",
         "description": "Within this project, the form is progressively enhanced with javascript to add customized and conditional behavior and interactivity.",
-        "technologies": "html, css, js, jquery",
+        "technologies": [
+          "html",
+          "css",
+          "js",
+          "jquery"
+        ],
         "live_link": "https://conf-signup-form.netlify.com/",
         "github_link": "https://github.com/alteredco/tech-degree-project-3",
         "image_urls": {
@@ -47,7 +60,11 @@
         "id": 3,
         "project_name": "phrase hunter",
         "description": "browser-based, oop word guessing game app",
-        "technologies": "html, css, js",
+        "technologies": [
+          "html",
+          "css",
+          "js"
+        ],
         "live_link": "https://phrase-hunter.netlify.com/",
         "github_link": "https://github.com/alteredco/techdegree-project-4",
         "image_urls": {
@@ -60,7 +77,7 @@
       {
         "id": 4,
         "project_name": "awesome employee directory",
-        "description": "this app requests a JSON object from an api and parses the data into a directory",
+        "description": "This app requests a JSON object from an api and parses the data into a directory",
         "technologies": [
           "html",
           "css",
