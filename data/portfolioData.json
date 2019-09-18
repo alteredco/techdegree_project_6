@@ -61,7 +61,13 @@
         "id": 4,
         "project_name": "awesome employee directory",
         "description": "this app requests a JSON object from an api and parses the data into a directory",
-        "technologies": "html, css, js, json, api",
+        "technologies": [
+          "html",
+          "css",
+          "js",
+          "json",
+          "api",
+        ],
         "live_link": "https://awesome-employee-directory.netlify.com/",
         "github_link": "https://github.com/alteredco/techdegree_project_5",
         "image_urls": {

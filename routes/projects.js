@@ -4,16 +4,39 @@ const { data } = require('../data/portfolioData.json');
 const { projects } = data;
 
 router.get('/:id', (req, res) => {
-  res.render('project', {
-    title: projects[req.params.id].project_name,
-    desc: projects[req.params.id].description,
-    tech: projects[req.params.id].technologies,
-    liveLink: projects[req.params.id].live_link,
-    ghLink: projects[req.params.id].github_link,
-    image1: projects[req.params.id].image_urls.image1,
-    image2: projects[req.params.id].image_urls.image2,
-    image3: projects[req.params.id].image_urls.image3
-  });
+  const id = req.params.id;
+  const {
+    project_name,
+    description,
+    technologies,
+    live_link,
+    github_link,
+    image_urls
+  } =  projects[id];
+  const { 
+    image1, 
+    image2,
+    image3
+  } = image_urls;
+ 
+  
+  if (!projects[id]) {
+    const err = new Error('This project is not found.What are you looking for?');
+    res.locals.error = err;
+    err.status = 404;
+    res.render('error')
+  } else {
+    res.render('project', {
+    project_name,
+    description,
+    technologies,
+    live_link,
+    github_link,
+    image1,
+    image2,
+    image3
+    });
+  }
 });
 
 module.exports = router;

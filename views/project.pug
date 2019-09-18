@@ -7,23 +7,26 @@ block content
     .grid-x
       .cell.small-6.medium-9.large-9
 
-        h1 #{title}
+        h1 #{project_name}
 
-        h5.lead.text-light
-          | #{desc}
+        p.lead.text-light
+          | #{description}
 
       .cell.portfolio-meta.small-6.medium-2.large-3
         h6 Technologies
 
         //- Use an `each` iterator to replace the li tags below and interpolation to dynamically add the technologies used in each project.
         ul
-          li #{tech}
+          each technology in technologies
+            li #{technology}
 
         //- Use template literals and interpolation to add URLs to the hrefs below so they link to the repo and the live version of each project.
-        a.button.expanded.round(href=`${liveLink}` target="_blank") Live Demo
-        a.button.expanded.round(href=`${ghLink}` target="_blank") GitHub Repo
+        a.button.expanded.round(href=`${
+    live_link}` target="_blank") Live Demo
+        a.button.expanded.round(href=`${
+    github_link}` target="_blank") GitHub Repo
     
     //- Replace the URLs in the src attributes below with template literals and interpolation to dynamically add three project images.  You only have to add one image.  But adding more images to show your app in different states demonstrates a level of thoroughness and professionalism that potential employers will like to see. 
-    img.image.fade-in(src=`${image1}` alt=`${title} screenshot 1`)
-    img.image.fade-in(src=`${image2}` alt=`${title}screenshot 2`)
-    img.image.fade-in(src=`${image3}` alt=`${title}screenshot 3`)
+    img.image.fade-in(src=`${image1}` alt=`${project_name} screenshot 1`)
+    img.image.fade-in(src=`${image2}` alt=`${project_name}screenshot 2`)
+    img.image.fade-in(src=`${image3}` alt=`${project_name}screenshot 3`)
