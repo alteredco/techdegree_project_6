@@ -18,7 +18,6 @@ router.get('/:id', (req, res) => {
     image2,
     image3
   } = image_urls;
- 
   
   if (!projects[id]) {
     const err = new Error('This project is not found.What are you looking for?');
