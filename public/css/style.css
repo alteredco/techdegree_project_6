@@ -183,3 +183,12 @@ a:hover{
   -moz-animation-fill-mode:forwards;
   animation-fill-mode:forwards;
 }
+
+@media print, screen and (max-width: 40em) {
+ h1 {
+   font-size: 1em;
+ }
+ h5.lead {
+   font-size: .85em;
+ }
+}
