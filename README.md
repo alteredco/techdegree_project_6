@@ -30,7 +30,17 @@ Set up a server to serve the project
 This project demonstrates my comfortable working knowledge of Node.js, Express and Pug, setting up a server, handling requests, working with server-side JavaScript, and building a powerful and modern back end project. 
 
 **FOR EXCEEDS**
+ ```npm start``` will run the app.
 
+Error handling middleware will render a Pug template called error.pug. This Pug file extends the layout and displays the error.message, error.status, and error.stack properties.When the request URL is for a non-existent route, the error.pug template will be displayed in the browser along with the following properties:
+error.message
+error.status
+error.stack
+
+This project utilizes a customized color palette and fonts.
+Fade in animations are added on window load.
+Custom logo is added to layout.pug
+Font awesome linked in the layout.pug head and icons added to project.
 
 
 

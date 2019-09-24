@@ -2,7 +2,8 @@ extends layout.pug
 
 block content 
   nav.grid-container.portfolio-breadcrumb
-    a(href='/') ← Back
+    a(href='/')
+      i(class="fas fa-arrow-circle-left")  Back
   article.grid-container.portfolio-intro.portfolio-project
     .grid-x
       .cell.small-6.medium-9.large-9
@@ -12,7 +13,6 @@ block content
         p.lead.text-light
           | Full Stack JavaScript Developer.
 
-        //- Replace the boilerplate below with your Elevator pitch below.
         .portfolio-bio.fade-in
           p
             | I am a Full Stack JavaScript Developer that loves good design, JavaScript and Python. I am working at Moms Can Code School as their Student Success Manager and have previously been their Online Instructor for Python. My current endeavours include studying React and occasionally opening a French textbook. I have had a varied career in fields such as art, psychotherapy, communications and PR. I bring a diverse skill-set to my work and have much to offer clients.<br/><br/>
@@ -24,7 +24,6 @@ block content
             img.thumbnail.round(src='/static/images/wk_portrait.png')
         h6 Skills
 
-        //- Replace the text in the li tags below with your own skills.  At this point, you should be able to list at least ten skills.
         ul
           li HTML 5
           li CSS 3
@@ -36,15 +35,17 @@ block content
           li Git
         h6 Contact Info
 
-        //- Add your own contact info
+
         ul
           li 555-555-1234
           li kudacoder@gmail.com
 
         //- Add URLs to the hrefs below to link to your social media accounts.
-        a.button.expanded.round(href='') LinkedIn
-        a.button.expanded.round(href='') GitHub
-        a.button.expanded.round(href='') Twitter
+        a.button.expanded.round(href='https://www.linkedin.com/in/wendy-kakuda/' target="_blank") LinkedIn
+        a.button.expanded.round(href='https://github.com/alteredco' target="_blank") GitHub
+        a.button.expanded.round(href='https://twitter.com/kudacoder' target="_blank") Twitter
+        a.button.expanded.round(href='https://www.instagram.com/kudacoder/' target="_blank") Instagram
   nav.grid-container.portfolio-breadcrumb
-    a(href='/') ← Back
+    a(href='/')
+      i(class="fas fa-arrow-circle-left")  Back
   

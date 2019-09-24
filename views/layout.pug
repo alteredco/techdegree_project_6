@@ -8,13 +8,15 @@ html(class="no-js" lang="en" dir="ltr")
     link(href="https://fonts.googleapis.com/css?family=BioRhyme|Roboto&display=swap", rel='stylesheet')
     link(rel='stylesheet', href='/static/css/foundation.css')
     link(rel='stylesheet', href='/static/css/style.css')
+    <script src="https://kit.fontawesome.com/ed6171045d.js" crossorigin="anonymous"></script>
   body
     #my-info.off-canvas.position-left.reveal-for-large.portfolio-me(data-off-canvas='')
       .grid-y.grid-padding-x(style='height: 100%;')
         block sidebar
           br
           .cell.shrink
-            img.thumbnail.round(src='/static/images/wk_logo.png')
+            a(href='/') 
+              img.thumbnail.round(src='/static/images/wk_logo.png')
           .cell.auto
 
             h5 #{name}
@@ -22,7 +24,8 @@ html(class="no-js" lang="en" dir="ltr")
             p.text-light
               | #{tagline}
 
-            a(href='/about') Learn About Me →
+            a(href='/about') Learn About Me  
+              i(class='fas fa-arrow-circle-right')
 
     .off-canvas-content(data-off-canvas-content='')
       .title-bar.hide-for-large
