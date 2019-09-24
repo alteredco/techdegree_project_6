@@ -10,7 +10,7 @@ Clone the Repo to start:
 git clone https://github.com/alteredco/techdegree_project_6
 ```
 
-Working version of this project can be found here: 
+Working version of this project can be found here: https://wk-portfolio.herokuapp.com/
 _____________
 # Features:
 
